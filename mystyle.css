@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: white;
+    padding: 10px;
+    height: 42px;
+  }
+#add-btn{
+    border-radius: 12px;
+    width :152px;
+    height: 43px;
+    bottom: 45px;
+    left: 52px;
+}
+
+#sidebar {
+    width: 22%;
+    height: 100vh;
+    background-color:#F5F7F9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border:1px solid #D4DADF;
+}
+
+#sidebar ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 41.69px;
+}
+
+#sidebar li {
+    margin-top: 49px;
+}
+
+#sidebar button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#main {
+    margin-left: 22%;
+    border-top:1px solid #D4DADF;
+    background-color:  #FAFAFA;
+    
+}
+
+#header {
+    width: 25%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    float: right;
+}
+
+#logo {
+    display: flex;
+    height: 42px;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 42px;
+    padding-bottom: 10px;
+    border-right:1px solid #D4DADF;
+}
+
+#logo img {
+    padding-right: 10px;
+    width: 32.42px;
+}
+
+#logo span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#search-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #D4DADF;
+    border-radius: 5px;
+    width: 200px; 
+}
+
+
+
+#search-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie {
+    width: 30%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie h3 {
+   font-family : 'Roboto', sans-serif; 
+   font-size :24 px; 
+   color : white; 
+   position : absolute; 
+   bottom :0 ; 
+   left :0 ; 
+   right :0 ; 
+   background-color : rgba(0,0,0,0.5);
+}
+.movie {
+    transition: transform 0.3s;
+  }
+  
+  .movie:hover {
+    transform: scale(1.1);
+  }
+  
